@@ -1,3 +1,3 @@
-square = int(input())
-square2 = square**2
-print (square2)
+square = float(input("Ввести сторону квадрата " ))
+square2 = round (square**2)
+print (f"Площадь квадрата {square2}")
